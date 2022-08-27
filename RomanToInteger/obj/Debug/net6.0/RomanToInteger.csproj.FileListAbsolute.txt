@@ -1,0 +1,15 @@
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\bin\Debug\net6.0\RomanToInteger.exe
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\bin\Debug\net6.0\RomanToInteger.deps.json
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\bin\Debug\net6.0\RomanToInteger.runtimeconfig.json
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\bin\Debug\net6.0\RomanToInteger.dll
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\bin\Debug\net6.0\ref\RomanToInteger.dll
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\bin\Debug\net6.0\RomanToInteger.pdb
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\obj\Debug\net6.0\RomanToInteger.csproj.AssemblyReference.cache
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\obj\Debug\net6.0\RomanToInteger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\obj\Debug\net6.0\RomanToInteger.AssemblyInfoInputs.cache
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\obj\Debug\net6.0\RomanToInteger.AssemblyInfo.cs
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\obj\Debug\net6.0\RomanToInteger.csproj.CoreCompileInputs.cache
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\obj\Debug\net6.0\RomanToInteger.dll
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\obj\Debug\net6.0\ref\RomanToInteger.dll
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\obj\Debug\net6.0\RomanToInteger.pdb
+C:\Users\GTUSR0306\LeeCode\RomanToInteger\obj\Debug\net6.0\RomanToInteger.genruntimeconfig.cache
