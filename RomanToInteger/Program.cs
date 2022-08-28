@@ -1,6 +1,6 @@
 ﻿static void Main()
 {
-    Console.WriteLine(new Solution().RomanToInt("MMCDXXV"));
+    Console.WriteLine(new Solution().RomanToInt("MCMXCIV"));
 }
 
 Main();
@@ -21,43 +21,25 @@ public class Solution
     public short RomanToInt(string s)
     {
         var chars = s.ToCharArray();
-        short index = (short)(chars.Length - 1);
-        short total = 0;
-        short anchorTotal = 0;
-        char ancher;
-        while (index >= 0)
+        short currentIndex = (short)(chars.Length - 1);
+        short total = dict.GetValueOrDefault(chars.Last());
+        while (currentIndex >= 0)
         {
-            ancher = chars[index];
-            var anchorValue = dict.GetValueOrDefault(ancher);
-            if (index == 0)
+            var currentKey = chars[currentIndex];
+            var currentValue = dict.GetValueOrDefault(currentKey);
+            var nextKey = currentIndex > 0 ? chars[currentIndex - 1] : '-';
+            var nextValue = dict.GetValueOrDefault(nextKey);
+            if (((currentKey == 'V' || currentKey == 'X') && nextKey == 'I') ||
+                ((currentKey == 'L' || currentKey == 'C') && nextKey == 'X') ||
+                ((currentKey == 'D' || currentKey == 'M') && nextKey == 'C'))
             {
-                total += anchorValue;
-                break;
-            }
-            if (index < chars.Length - 1 && anchorValue == dict.GetValueOrDefault(chars[index + 1]))
-            {
-                total += anchorValue;
-                index--;
-                continue;
-            }
-            var currentValue = dict.GetValueOrDefault(chars[index - 1]);
-            anchorTotal = anchorValue;
-            while (anchorValue == currentValue)
-            {
-                if (--index == 0) break;
-                anchorTotal += currentValue;
-                currentValue = dict.GetValueOrDefault(chars[index - 1]);
-            }
-            if (anchorValue > currentValue)
-            {
-                anchorTotal -= currentValue;
+                total -= nextValue;
             }
             else
             {
-                anchorTotal += currentValue;
+                total += nextValue;
             }
-            total += anchorTotal;
-            index -= 2;
+            currentIndex--;
         }
         return total;
     }
