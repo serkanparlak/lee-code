@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RomanToInteger",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build RomanToInteger",
+            "program": "${workspaceFolder}/RomanToInteger/bin/Debug/net6.0/RomanToInteger.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "Palindrome",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build Palindrome",
+            "program": "${workspaceFolder}/Palindrome/bin/Debug/net6.0/Palindrome.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}
