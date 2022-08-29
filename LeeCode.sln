@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToInteger", "RomanToIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayeredStatupWebApi", "LayeredStatupWebApi\LayeredStatupWebApi.csproj", "{BDE76569-CC7C-4ECD-9330-8695951367A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{0D834D75-060C-4556-9322-F9BB68C407C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{BDE76569-CC7C-4ECD-9330-8695951367A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDE76569-CC7C-4ECD-9330-8695951367A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDE76569-CC7C-4ECD-9330-8695951367A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D834D75-060C-4556-9322-F9BB68C407C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D834D75-060C-4556-9322-F9BB68C407C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D834D75-060C-4556-9322-F9BB68C407C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D834D75-060C-4556-9322-F9BB68C407C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
