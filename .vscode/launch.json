@@ -2,6 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "FizzBuzz",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build FizzBuzz",
+            "program": "${workspaceFolder}/FizzBuzz/bin/Debug/net6.0/FizzBuzz.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
             "name": "RansomNote",
             "type": "coreclr",
             "request": "launch",
