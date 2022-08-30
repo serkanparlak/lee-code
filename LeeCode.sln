@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RansomNote", "RansomNote\Ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{70B12C92-DE18-4BAF-A26D-038546EFDBA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{9EACC947-A86B-498F-A0AE-76626DF2FCFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{70B12C92-DE18-4BAF-A26D-038546EFDBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70B12C92-DE18-4BAF-A26D-038546EFDBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70B12C92-DE18-4BAF-A26D-038546EFDBA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EACC947-A86B-498F-A0AE-76626DF2FCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EACC947-A86B-498F-A0AE-76626DF2FCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EACC947-A86B-498F-A0AE-76626DF2FCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EACC947-A86B-498F-A0AE-76626DF2FCFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
