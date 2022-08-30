@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayeredStatupWebApi", "Laye
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{0D834D75-060C-4556-9322-F9BB68C407C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RansomNote", "RansomNote\RansomNote.csproj", "{C0F03B87-B0BF-4CD5-AC7C-5B6DF74F35AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{0D834D75-060C-4556-9322-F9BB68C407C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D834D75-060C-4556-9322-F9BB68C407C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D834D75-060C-4556-9322-F9BB68C407C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F03B87-B0BF-4CD5-AC7C-5B6DF74F35AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F03B87-B0BF-4CD5-AC7C-5B6DF74F35AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F03B87-B0BF-4CD5-AC7C-5B6DF74F35AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F03B87-B0BF-4CD5-AC7C-5B6DF74F35AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
