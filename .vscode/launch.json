@@ -2,6 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "AddTwoNumbers",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build AddTwoNumbers",
+            "program": "${workspaceFolder}/AddTwoNumbers/bin/Debug/net6.0/AddTwoNumbers.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
             "name": "TwoSum",
             "type": "coreclr",
             "request": "launch",
