@@ -2,6 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "LongestSubstringWithoutRepeating",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build LongestSubstringWithoutRepeating",
+            "program": "${workspaceFolder}/LongestSubstringWithoutRepeating/bin/Debug/net6.0/LongestSubstringWithoutRepeating.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
             "name": "AddTwoNumbers",
             "type": "coreclr",
             "request": "launch",
